@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  font-family: "Space Mono", "Courier New", Courier, monospace;
+  color: #333333;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 10vh 0;
+  align-items: center;
+}
+
+header {
+  font-weight: 700;
+  padding: 2rem 36px;
+}
+
+button {
+  font-family: "Space Mono", "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: 700;
+  background: black;
+  padding: 1.5rem 3rem;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.notfound {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+}
+
+.notfound__body {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+footer {
+  padding: 2rem 0;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+  .notfound {
+    display: block;
+  }
+
+  main {
+    padding: 1rem 1rem;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+  }
+}
